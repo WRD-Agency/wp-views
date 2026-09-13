@@ -24,7 +24,7 @@ function use_views_directory() {
  * @return string
  */
 function get_views_directory(): string {
-	$directory = get_stylesheet_directory() . '/views/';
+	$directory = '/views/';
 
 	return apply_filters( 'wrd\wp_views\get_views_directory', $directory );
 }
